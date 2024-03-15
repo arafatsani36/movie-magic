@@ -1,7 +1,8 @@
-import Popular from '../popular/Popular';
+import Popular from './popular/Popular';
 import HeroBanner from './heroBanner/HeroBanner';
 import './style.scss'
 import Trending from './trending/Trending';
+import TopRates from './topRated/TopRates';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
           <HeroBanner/>
           <Trending/>
           <Popular/>
+          <TopRates/>
         </div>
     );
 };
